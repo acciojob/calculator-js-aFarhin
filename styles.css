@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.calculator {
+	width: 400px;
+	height: 500px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid black;
+/*   width: 300px; */
+}
+.display {
+  grid-column: 1 / -1;
+  background-color: #f0f0f0;
+  padding: 5px;
+  font-size: 24px;
+  text-align: right;
+}
